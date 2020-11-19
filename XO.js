@@ -37,7 +37,7 @@ let disp=document.getElementById('player');
                 
             } 
           if(move==10 && findWinner()==-1){
-              $('body').append('<button class="btn" onclick="location.reload()">PLAY AGAIN</button>');
+              $('body').append('<center><button class="btn" onclick="location.reload()">PLAY AGAIN</button></center>');
               disp.innerHTML = "GAME TIE!!";
           
         }   
