@@ -1,0 +1,59 @@
+td {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 40px;
+    background-color: burlywood;
+    cursor: pointer;
+    outline: none;
+}
+
+td:hover {
+    background-color: rgb(240, 227, 220);
+}
+
+table {
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+    margin: 20px auto;
+}
+#player{
+    text-align: center;
+    font-size: 40px;
+
+}
+.h1{
+    font-size: 40px;
+    text-decoration: underline;
+}
+body {
+    justify-content: center;
+    font-family: cursive;
+    background: rgb(56, 205, 224);
+    overflow: hidden;
+
+}
+.winner{
+    font-size: 30px;
+    text-align: center;
+    color:rgb(0, 0, 0);
+    letter-spacing: 2px;
+    font-family: cursive;
+}
+.btn{
+    color:black;
+    cursor: pointer;
+    position: absolute;
+    margin:50px 710px;
+    font-size:30px;
+    border-radius: 50% ;
+    font-family:cursive;
+    background-color:crimson;
+    box-shadow:2px 2px black;
+    overflow: hidden;
+    outline: none;
+   }
+   .btn:hover{
+       background-color:#ff91a5
+   }
