@@ -44,6 +44,7 @@ body {
 .btn{
     color:black;
     cursor: pointer;
+    pading:17px;
     position: relative;
     font-size:30px;
     border-radius: 50% ;
