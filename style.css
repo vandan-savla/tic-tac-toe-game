@@ -29,7 +29,7 @@ table {
 }
 body {
     justify-content: center;
-    font-family: cursive;
+    font-family: sans-serif;
     background: rgb(56, 205, 224);
     overflow: hidden;
 
@@ -44,11 +44,10 @@ body {
 .btn{
     color:black;
     cursor: pointer;
-    position: absolute;
-    margin:50px 710px;
+    position: relative;
     font-size:30px;
     border-radius: 50% ;
-    font-family:cursive;
+    font-family:Roboto;
     background-color:crimson;
     box-shadow:2px 2px black;
     overflow: hidden;
