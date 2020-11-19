@@ -24,13 +24,13 @@ let disp=document.getElementById('player');
                if(findWinner()=="X")
                {
                    
-                   $('body').append('<button class="btn" onclick="location.reload()">PLAY AGAIN</button>');
+                   $('body').append('<center><button class="btn" onclick="location.reload()">PLAY AGAIN</button></center>');
                    disp.innerHTML="GAME OVER X WON!!";
                    
                 }
                 else 
                 {
-                    $('body').append('<button class="btn" onclick="location.reload()">PLAY AGAIN</button>');   
+                    $('body').append('<center><button class="btn" onclick="location.reload()">PLAY AGAIN</button></center>');   
                     disp.innerHTML="GAME OVER O WON!!";  
                 }
                 
