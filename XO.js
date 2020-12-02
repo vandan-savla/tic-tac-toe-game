@@ -36,6 +36,8 @@ let disp=document.getElementById('player');
                 
                 
             } 
+// this logic is created by me...not copied  ...
+
           if(move==10 && findWinner()==-1){
               $('body').append('<center><button class="btn" onclick="location.reload()">PLAY AGAIN</button></center>');
               disp.innerHTML = "GAME TIE!!";
